@@ -1,0 +1,1747 @@
+{
+ "title": "VOCÊ DECIDE · Ep.1 \"A entrega\"",
+ "output_name": "voce-decide-ep1",
+ "duration": 52.6,
+ "hud": "VOCÊ DECIDE · EP.1",
+ "frames_dir": "build/f3d",
+ "output_dir": "out",
+ "cast": {
+  "leo": {
+   "skin": "#96603f",
+   "hair": "#19120f",
+   "hair_style": "curly",
+   "top": "#eb5523",
+   "stripe": "#ffdc3c",
+   "pants": "#23284a",
+   "backpack": "#1e6e46",
+   "helmet": "#ffc400"
+  }
+ },
+ "shots": [
+  {
+   "start": 0,
+   "end": 5.05,
+   "set": "street_night",
+   "rain": true,
+   "time_map": {
+    "type": "reverse",
+    "at": 2.9,
+    "speed": 1.6
+   },
+   "actors": [
+    {
+     "id": "leo",
+     "pos": [
+      6.0,
+      0.25,
+      -108.6
+     ],
+     "rot": 0.5,
+     "expr": "shock"
+    }
+   ],
+   "props": [
+    {
+     "type": "package",
+     "pos": [
+      6.9,
+      0.25,
+      -107.7
+     ],
+     "rot": 0.5,
+     "open": true,
+     "phone": true
+    },
+    {
+     "type": "money_burst",
+     "origin": [
+      6.9,
+      0.85,
+      -107.7
+     ],
+     "time_offset": 1.2
+    },
+    {
+     "type": "moto",
+     "pos": [
+      2.6,
+      0,
+      -103.5
+     ],
+     "rot": 3.1416,
+     "lamp": false
+    }
+   ],
+   "camera": {
+    "from": [
+     7.07,
+     2.6,
+     -103.31
+    ],
+    "to": [
+     7.81,
+     2.6,
+     -104.32
+    ],
+    "look": [
+     6.4,
+     1.7,
+     -108.1
+    ],
+    "fov": 54
+   }
+  },
+  {
+   "start": 5.05,
+   "end": 8.65,
+   "set": "street_night",
+   "rain": true,
+   "props": [
+    {
+     "type": "moto",
+     "pos": [
+      2.2,
+      0,
+      -10
+     ],
+     "rot": 3.1416,
+     "speed": 12,
+     "rider": "leo"
+    }
+   ],
+   "camera": {
+    "from": [
+     -1.8,
+     1.8,
+     -14.5
+    ],
+    "to": [
+     -0.7,
+     1.8,
+     -14.5
+    ],
+    "look": [
+     2.2,
+     1.6,
+     -9.5
+    ],
+    "fov": 48,
+    "follow_moto": true
+   }
+  },
+  {
+   "start": 8.65,
+   "end": 11.75,
+   "set": "street_night",
+   "rain": true,
+   "props": [
+    {
+     "type": "moto",
+     "pos": [
+      2.2,
+      0,
+      -55
+     ],
+     "rot": 3.1416,
+     "speed": 15,
+     "rider": "leo"
+    }
+   ],
+   "camera": {
+    "from": [
+     0,
+     22,
+     -37
+    ],
+    "to": [
+     0,
+     12.7,
+     -89.7
+    ],
+    "look": [
+     0,
+     0,
+     -80
+    ],
+    "look_to": [
+     0,
+     0,
+     -122
+    ],
+    "fov": 50
+   }
+  },
+  {
+   "start": 11.75,
+   "end": 14.55,
+   "set": "street_night",
+   "rain": true,
+   "flicker": true,
+   "actors": [
+    {
+     "id": "leo",
+     "pos": [
+      6.0,
+      0.25,
+      -108.6
+     ],
+     "rot": 1.77,
+     "expr": "sus"
+    }
+   ],
+   "props": [
+    {
+     "type": "moto",
+     "pos": [
+      2.6,
+      0,
+      -103.5
+     ],
+     "rot": 3.1416,
+     "lamp": false
+    }
+   ],
+   "camera": {
+    "from": [
+     0.5,
+     3.4,
+     -101.5
+    ],
+    "to": [
+     2.2,
+     3.0,
+     -103.6
+    ],
+    "look": [
+     8.6,
+     1.6,
+     -110.0
+    ],
+    "fov": 42
+   }
+  },
+  {
+   "start": 14.55,
+   "end": 17.3,
+   "set": "street_night",
+   "rain": true,
+   "flicker": true,
+   "actors": [
+    {
+     "id": "leo",
+     "pos": [
+      6.0,
+      0.25,
+      -108.6
+     ],
+     "rot": 0.5,
+     "pose": "phone",
+     "expr": "sus"
+    }
+   ],
+   "props": [
+    {
+     "type": "moto",
+     "pos": [
+      2.6,
+      0,
+      -103.5
+     ],
+     "rot": 3.1416,
+     "lamp": false
+    }
+   ],
+   "camera": {
+    "from": [
+     8.89,
+     2.9,
+     -105.02
+    ],
+    "to": [
+     8.32,
+     2.85,
+     -105.34
+    ],
+    "look": [
+     6.0,
+     2.5,
+     -108.6
+    ],
+    "fov": 40
+   }
+  },
+  {
+   "start": 17.3,
+   "end": 20.9,
+   "set": "street_night",
+   "rain": true,
+   "actors": [
+    {
+     "id": "leo",
+     "pos": [
+      6.0,
+      0.25,
+      -108.6
+     ],
+     "rot": 0.5,
+     "look_down": true,
+     "expr": "sus"
+    }
+   ],
+   "props": [
+    {
+     "type": "package",
+     "pos": [
+      6.9,
+      0.25,
+      -107.7
+     ],
+     "rot": 0.5,
+     "drop_at": 1.5
+    },
+    {
+     "type": "moto",
+     "pos": [
+      2.6,
+      0,
+      -103.5
+     ],
+     "rot": 3.1416,
+     "lamp": false
+    }
+   ],
+   "camera": {
+    "from": [
+     4.4,
+     1.9,
+     -104.4
+    ],
+    "to": [
+     5.6,
+     1.3,
+     -105.6
+    ],
+    "look": [
+     6.9,
+     0.6,
+     -107.7
+    ],
+    "fov": 46
+   }
+  },
+  {
+   "start": 20.9,
+   "end": 25.5,
+   "set": "street_night",
+   "rain": true,
+   "fog": 0.03,
+   "actors": [
+    {
+     "id": "leo",
+     "pos": [
+      6.0,
+      0.25,
+      -108.6
+     ],
+     "rot": 0.5,
+     "pose": "reach",
+     "expr": "nervous"
+    }
+   ],
+   "props": [
+    {
+     "type": "package",
+     "pos": [
+      6.9,
+      0.25,
+      -107.7
+     ],
+     "rot": 0.5,
+     "open_at": 3.75,
+     "phone": true
+    },
+    {
+     "type": "moto",
+     "pos": [
+      2.6,
+      0,
+      -103.5
+     ],
+     "rot": 3.1416,
+     "lamp": false
+    }
+   ],
+   "camera": {
+    "from": [
+     6.9,
+     1.6,
+     -106.4
+    ],
+    "to": [
+     6.9,
+     1.05,
+     -106.95
+    ],
+    "look": [
+     6.9,
+     0.8,
+     -107.7
+    ],
+    "fov": 42
+   }
+  },
+  {
+   "start": 25.5,
+   "end": 28.9,
+   "set": "street_night",
+   "rain": true,
+   "actors": [
+    {
+     "id": "leo",
+     "pos": [
+      6.0,
+      0.25,
+      -108.6
+     ],
+     "rot": 0.5,
+     "expr": "shock"
+    }
+   ],
+   "props": [
+    {
+     "type": "package",
+     "pos": [
+      6.9,
+      0.25,
+      -107.7
+     ],
+     "rot": 0.5,
+     "open": true,
+     "phone": true
+    },
+    {
+     "type": "money_burst",
+     "origin": [
+      6.9,
+      0.85,
+      -107.7
+     ]
+    },
+    {
+     "type": "moto",
+     "pos": [
+      2.6,
+      0,
+      -103.5
+     ],
+     "rot": 3.1416,
+     "lamp": false
+    }
+   ],
+   "camera": {
+    "from": [
+     7.04,
+     2.0,
+     -104.53
+    ],
+    "to": [
+     7.19,
+     2.8,
+     -102.72
+    ],
+    "look": [
+     6.4,
+     1.7,
+     -108.0
+    ],
+    "fov": 56
+   }
+  },
+  {
+   "start": 28.9,
+   "end": 32.25,
+   "set": "street_night",
+   "rain": true,
+   "actors": [
+    {
+     "id": "leo",
+     "pos": [
+      6.0,
+      0.25,
+      -108.6
+     ],
+     "rot": 0.5,
+     "expr": "shock"
+    }
+   ],
+   "props": [
+    {
+     "type": "package",
+     "pos": [
+      6.9,
+      0.25,
+      -107.7
+     ],
+     "rot": 0.5,
+     "open": true,
+     "phone": true,
+     "ring_at": 1.0
+    },
+    {
+     "type": "money_burst",
+     "origin": [
+      6.9,
+      0.85,
+      -107.7
+     ],
+     "time_offset": 3.4
+    },
+    {
+     "type": "moto",
+     "pos": [
+      2.6,
+      0,
+      -103.5
+     ],
+     "rot": 3.1416,
+     "lamp": false
+    }
+   ],
+   "camera": {
+    "from": [
+     6.5,
+     2.3,
+     -106.0
+    ],
+    "to": [
+     6.7,
+     1.7,
+     -106.7
+    ],
+    "look": [
+     6.9,
+     0.8,
+     -107.7
+    ],
+    "fov": 40
+   }
+  },
+  {
+   "start": 32.25,
+   "end": 35.85,
+   "set": "neon_void",
+   "actors": [
+    {
+     "id": "leo",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "rot": 0,
+     "expr": "happy"
+    }
+   ],
+   "props": [
+    {
+     "type": "stack",
+     "center": [
+      0,
+      0,
+      0
+     ],
+     "count_from": 1,
+     "count_to": 1
+    }
+   ],
+   "camera": {
+    "orbit": {
+     "center": [
+      0,
+      1.9,
+      0
+     ],
+     "radius": 7.5,
+     "height": 1.7,
+     "start_angle": -0.4,
+     "speed": 0.12
+    },
+    "fov": 48
+   }
+  },
+  {
+   "start": 35.85,
+   "end": 38.7,
+   "set": "neon_void",
+   "actors": [
+    {
+     "id": "leo",
+     "pos": [
+      0,
+      0,
+      0
+     ],
+     "rot": 0,
+     "expr": "shock"
+    }
+   ],
+   "props": [
+    {
+     "type": "stack",
+     "center": [
+      0,
+      0,
+      0
+     ],
+     "count_from": 1,
+     "count_to": 50,
+     "start": 0,
+     "dur": 2.2
+    }
+   ],
+   "camera": {
+    "orbit": {
+     "center": [
+      0,
+      1.9,
+      0
+     ],
+     "radius": 7.5,
+     "height": 1.7,
+     "start_angle": 0.03,
+     "speed": 0.12
+    },
+    "fov": 48
+   }
+  },
+  {
+   "start": 38.7,
+   "end": 52.6,
+   "set": "street_night",
+   "rain": true,
+   "mood": "red",
+   "actors": [
+    {
+     "id": "leo",
+     "pos": [
+      6.0,
+      0.25,
+      -108.6
+     ],
+     "rot": 0.5,
+     "expr": "nervous"
+    }
+   ],
+   "props": [
+    {
+     "type": "package",
+     "pos": [
+      6.9,
+      0.25,
+      -107.7
+     ],
+     "rot": 0.5,
+     "open": true,
+     "phone": true,
+     "ring": true
+    },
+    {
+     "type": "money_burst",
+     "origin": [
+      6.9,
+      0.85,
+      -107.7
+     ],
+     "time_offset": 10
+    },
+    {
+     "type": "moto",
+     "pos": [
+      2.6,
+      0,
+      -103.5
+     ],
+     "rot": 3.1416,
+     "lamp": false
+    }
+   ],
+   "camera": {
+    "from": [
+     7.92,
+     2.8,
+     -105.09
+    ],
+    "to": [
+     7.25,
+     2.8,
+     -106.31
+    ],
+    "look": [
+     6.0,
+     2.4,
+     -108.6
+    ],
+    "fov": 40
+   }
+  }
+ ],
+ "scenes": [
+  {
+   "start": 0,
+   "overlays": [
+    {
+     "type": "text",
+     "text": "ESSA ENTREGA",
+     "size": 110,
+     "y": 930,
+     "at": 0.05,
+     "until": 2.9
+    },
+    {
+     "type": "text",
+     "text": "MUDOU TUDO",
+     "size": 140,
+     "color": "yellow",
+     "y": 1070,
+     "at": 0.35,
+     "rot": -3,
+     "until": 2.9
+    },
+    {
+     "type": "tint",
+     "color": [
+      20,
+      40,
+      160,
+      90
+     ],
+     "at": 2.9
+    },
+    {
+     "type": "badge",
+     "text": "<< 10 MINUTOS ANTES",
+     "size": 66,
+     "bg": "white",
+     "y": 340,
+     "at": 3.0
+    }
+   ]
+  },
+  {
+   "start": 5.05,
+   "flash": true,
+   "overlays": [
+    {
+     "type": "text",
+     "text": "23:40",
+     "size": 220,
+     "color": [
+      255,
+      60,
+      70
+     ],
+     "stroke": 14,
+     "y": 330,
+     "at": 0.1
+    },
+    {
+     "type": "badge",
+     "text": "NOVO PEDIDO · ÚLTIMO DO DIA",
+     "size": 50,
+     "bg": "white",
+     "y": 620,
+     "at": 1.8
+    }
+   ]
+  },
+  {
+   "start": 8.65,
+   "overlays": [
+    {
+     "type": "badge",
+     "text": "ENDEREÇO ESTRANHO",
+     "size": 70,
+     "bg": "red",
+     "fg": "white",
+     "y": 300,
+     "at": 0.1
+    },
+    {
+     "type": "badge",
+     "text": "RUA SEM SAÍDA",
+     "size": 90,
+     "bg": "yellow",
+     "y": 1180,
+     "at": 1.5,
+     "slam": true,
+     "rot": -4
+    }
+   ]
+  },
+  {
+   "start": 11.75,
+   "flash": true,
+   "overlays": [
+    {
+     "type": "badge",
+     "text": "NINGUÉM",
+     "size": 120,
+     "bg": "red",
+     "fg": "white",
+     "y": 380,
+     "at": 1.45,
+     "slam": true,
+     "rot": -5
+    }
+   ]
+  },
+  {
+   "start": 14.55,
+   "overlays": [
+    {
+     "type": "phone",
+     "title": "Cliente",
+     "status": "chamando...",
+     "status_after": "CAIXA POSTAL",
+     "after": 1.5,
+     "x": 820,
+     "y": 760,
+     "scale": 0.55
+    },
+    {
+     "type": "tint",
+     "color": [
+      255,
+      0,
+      30,
+      30
+     ],
+     "at": 1.55
+    },
+    {
+     "type": "text",
+     "text": "X",
+     "size": 240,
+     "color": "red",
+     "x": 820,
+     "y": 520,
+     "at": 1.55,
+     "rot": 10
+    }
+   ]
+  },
+  {
+   "start": 17.3,
+   "overlays": [
+    {
+     "type": "badge",
+     "text": "PESADO DEMAIS",
+     "size": 90,
+     "bg": "red",
+     "fg": "white",
+     "y": 400,
+     "at": 1.4,
+     "slam": true,
+     "rot": -4
+    },
+    {
+     "type": "badge",
+     "text": "PRA SER COMIDA?",
+     "size": 60,
+     "bg": "white",
+     "y": 540,
+     "at": 1.8
+    }
+   ]
+  },
+  {
+   "start": 20.9,
+   "overlays": [
+    {
+     "type": "tint",
+     "color": [
+      255,
+      0,
+      30,
+      65
+     ],
+     "pulse": true
+    },
+    {
+     "type": "vignette",
+     "strength": 1.6
+    },
+    {
+     "type": "text",
+     "text": "NÃO ABRE...",
+     "size": 130,
+     "y": 380,
+     "at": 1.7,
+     "until": 3.7,
+     "rot": -3
+    },
+    {
+     "type": "text",
+     "text": "...ABRIU",
+     "size": 150,
+     "color": "yellow",
+     "y": 380,
+     "at": 3.7,
+     "rot": 3
+    }
+   ]
+  },
+  {
+   "start": 25.5,
+   "flash": true,
+   "overlays": [
+    {
+     "type": "counter",
+     "from": 0,
+     "to": 50000,
+     "prefix": "R$ ",
+     "y": 960,
+     "at": 0.05,
+     "dur": 1.2
+    },
+    {
+     "type": "badge",
+     "text": "DINHEIRO VIVO",
+     "size": 80,
+     "bg": "green",
+     "fg": "white",
+     "y": 1130,
+     "at": 2.1,
+     "rot": 3
+    }
+   ]
+  },
+  {
+   "start": 28.9,
+   "flash": true,
+   "overlays": [
+    {
+     "type": "badge",
+     "text": "NÚMERO DESCONHECIDO",
+     "size": 64,
+     "bg": "white",
+     "y": 330,
+     "at": 1.0
+    },
+    {
+     "type": "badge",
+     "text": "AGORA.",
+     "size": 140,
+     "bg": "red",
+     "fg": "white",
+     "y": 520,
+     "at": 2.35,
+     "slam": true,
+     "rot": -6
+    },
+    {
+     "type": "tint",
+     "color": [
+      255,
+      0,
+      30,
+      60
+     ],
+     "at": 2.35,
+     "blink": true
+    }
+   ]
+  },
+  {
+   "start": 32.25,
+   "overlays": [
+    {
+     "type": "badge",
+     "text": "8 MESES JUNTANDO",
+     "size": 70,
+     "bg": "yellow",
+     "y": 300,
+     "at": 0.2
+    },
+    {
+     "type": "progress",
+     "to": 0.62,
+     "label": "{p}% DE 1 PS5",
+     "y": 440,
+     "at": 0.4,
+     "dur": 1.6
+    }
+   ]
+  },
+  {
+   "start": 35.85,
+   "overlays": [
+    {
+     "type": "text",
+     "text": "x50",
+     "size": 240,
+     "color": "green",
+     "y": 380,
+     "at": 0.05,
+     "rot": -4
+    }
+   ]
+  },
+  {
+   "start": 38.7,
+   "flash": true,
+   "overlays": [
+    {
+     "type": "tint",
+     "color": [
+      120,
+      0,
+      20,
+      50
+     ]
+    },
+    {
+     "type": "timer",
+     "seconds": 10,
+     "start_abs": 38.7,
+     "x": 540,
+     "y": 1080,
+     "r": 170
+    },
+    {
+     "type": "badge",
+     "text": "10 SEGUNDOS",
+     "size": 80,
+     "bg": "red",
+     "fg": "white",
+     "y": 260,
+     "at": 0.1
+    }
+   ]
+  },
+  {
+   "start": 40.95,
+   "flash": true,
+   "overlays": [
+    {
+     "type": "tint",
+     "color": [
+      10,
+      0,
+      30,
+      140
+     ]
+    },
+    {
+     "type": "choice",
+     "a": "ATENDER O|CELULAR",
+     "b": "IR PRA|POLÍCIA",
+     "at_b": 1.85
+    },
+    {
+     "type": "timer",
+     "seconds": 10,
+     "start_abs": 38.7,
+     "x": 540,
+     "y": 330,
+     "r": 110
+    }
+   ]
+  },
+  {
+   "start": 46.0,
+   "flash": true,
+   "blur": 6,
+   "overlays": [
+    {
+     "type": "tint",
+     "color": [
+      10,
+      0,
+      30,
+      150
+     ]
+    },
+    {
+     "type": "text",
+     "text": "VOCÊ",
+     "size": 170,
+     "y": 230,
+     "at": 0.05
+    },
+    {
+     "type": "text",
+     "text": "DECIDE",
+     "size": 200,
+     "color": "yellow",
+     "y": 420,
+     "at": 0.25,
+     "rot": -4
+    },
+    {
+     "type": "bubbles",
+     "y0": 650,
+     "items": [
+      [
+       "A!!! atende logo",
+       "@user.sp",
+       "yellow",
+       1.0
+      ],
+      [
+       "B, isso é armadilha",
+       "@gamer_23",
+       "cyan",
+       1.5
+      ],
+      [
+       "A, quero ver no que dá",
+       "@zerado",
+       "yellow",
+       2.0
+      ],
+      [
+       "B sem pensar duas vezes",
+       "@vicefan",
+       "cyan",
+       2.5
+      ]
+     ]
+    },
+    {
+     "type": "endcard",
+     "at": 4.6,
+     "mascot": false,
+     "lines": [
+      "PARTE 2 AMANHÃ",
+      "SEGUE @ZEREIHOJE"
+     ]
+    }
+   ]
+  }
+ ],
+ "subs": [
+  [
+   0.0,
+   2.55,
+   "ESSA ENTREGA IA MUDAR A VIDA DO LÉO."
+  ],
+  [
+   3.05,
+   4.4,
+   "ELE SÓ NÃO SABIA AINDA."
+  ],
+  [
+   5.22,
+   6.75,
+   "ONZE E QUARENTA DA NOITE."
+  ],
+  [
+   7.06,
+   8.4,
+   "ÚLTIMO PEDIDO DO DIA."
+  ],
+  [
+   8.78,
+   10.0,
+   "UM ENDEREÇO ESTRANHO,"
+  ],
+  [
+   10.15,
+   11.5,
+   "NUMA RUA SEM SAÍDA."
+  ],
+  [
+   11.88,
+   13.0,
+   "O LÉO CHEGA..."
+  ],
+  [
+   13.31,
+   14.3,
+   "E NÃO TEM NINGUÉM."
+  ],
+  [
+   14.71,
+   15.85,
+   "ELE LIGA PRO CLIENTE."
+  ],
+  [
+   16.15,
+   17.1,
+   "CAIXA POSTAL."
+  ],
+  [
+   17.43,
+   18.6,
+   "ELE OLHA PRO PACOTE."
+  ],
+  [
+   18.85,
+   20.7,
+   "PESADO DEMAIS PRA SER COMIDA."
+  ],
+  [
+   21.05,
+   22.45,
+   "A FITA TÁ MEIO SOLTA."
+  ],
+  [
+   22.78,
+   24.3,
+   "ELE NÃO DEVIA OLHAR..."
+  ],
+  [
+   24.6,
+   25.4,
+   "MAS OLHA."
+  ],
+  [
+   25.59,
+   27.45,
+   "CINQUENTA MIL REAIS."
+  ],
+  [
+   27.63,
+   28.7,
+   "EM DINHEIRO VIVO."
+  ],
+  [
+   29.01,
+   29.8,
+   "E UM CELULAR."
+  ],
+  [
+   30.04,
+   31.0,
+   "QUE COMEÇA A TOCAR."
+  ],
+  [
+   31.29,
+   32.0,
+   "AGORA."
+  ],
+  [
+   32.36,
+   35.7,
+   "O LÉO JUNTA DINHEIRO HÁ 8 MESES PRA COMPRAR UM PS5."
+  ],
+  [
+   36.01,
+   38.5,
+   "ALI TEM DINHEIRO PRA COMPRAR 50."
+  ],
+  [
+   38.82,
+   40.7,
+   "ELE TEM 10 SEGUNDOS PRA DECIDIR."
+  ],
+  [
+   41.04,
+   42.7,
+   "A: ATENDER O CELULAR."
+  ],
+  [
+   42.92,
+   45.8,
+   "B: LARGAR TUDO E IR DIRETO PRA POLÍCIA."
+  ],
+  [
+   46.09,
+   46.95,
+   "VOCÊ DECIDE."
+  ],
+  [
+   47.15,
+   48.55,
+   "COMENTA A OU B."
+  ],
+  [
+   48.77,
+   50.6,
+   "O QUE GANHAR, ACONTECE AMANHÃ."
+  ]
+ ],
+ "highlights": {
+  "LÉO": "yellow",
+  "MUDAR": "yellow",
+  "ONZE": "yellow",
+  "QUARENTA": "yellow",
+  "ÚLTIMO": "yellow",
+  "ESTRANHO": "red",
+  "SEM": "red",
+  "SAÍDA": "red",
+  "NINGUÉM": "red",
+  "CAIXA": "red",
+  "POSTAL": "red",
+  "PACOTE": "yellow",
+  "PESADO": "red",
+  "FITA": "yellow",
+  "NÃO": "red",
+  "OLHA": "yellow",
+  "CINQUENTA": "green",
+  "MIL": "green",
+  "REAIS": "green",
+  "DINHEIRO": "green",
+  "VIVO": "green",
+  "CELULAR": "yellow",
+  "TOCAR": "red",
+  "AGORA": "red",
+  "8": "yellow",
+  "PS5": "cyan",
+  "50": "green",
+  "10": "red",
+  "SEGUNDOS": "red",
+  "A": "yellow",
+  "B": "cyan",
+  "POLÍCIA": "cyan",
+  "DECIDE": "yellow",
+  "AMANHÃ": "yellow"
+ },
+ "shakes": [
+  [
+   0.05,
+   20
+  ],
+  [
+   13.4,
+   22
+  ],
+  [
+   16.2,
+   18
+  ],
+  [
+   18.9,
+   26
+  ],
+  [
+   24.6,
+   16
+  ],
+  [
+   25.55,
+   34
+  ],
+  [
+   31.3,
+   28
+  ],
+  [
+   38.75,
+   20
+  ],
+  [
+   42.95,
+   14
+  ]
+ ],
+ "audio": {
+  "narration": "narration.mp3",
+  "music": {
+   "mood": "tension",
+   "gain": 0.18,
+   "levels": [
+    [
+     0,
+     0.8
+    ],
+    [
+     5,
+     0.6
+    ],
+    [
+     25,
+     1.0
+    ],
+    [
+     25.5,
+     0.3
+    ],
+    [
+     28.9,
+     0.8
+    ],
+    [
+     32.2,
+     0.5
+    ],
+    [
+     38.7,
+     1.0
+    ],
+    [
+     46,
+     0.6
+    ],
+    [
+     52.6,
+     0.6
+    ]
+   ],
+   "silence": [
+    [
+     24.55,
+     25.55
+    ]
+   ]
+  },
+  "ambience": [
+   {
+    "type": "rain",
+    "from": 5,
+    "to": 25.5
+   }
+  ],
+  "sfx": [
+   [
+    0.0,
+    "impact",
+    0.8
+   ],
+   [
+    0.05,
+    "cash",
+    0.5
+   ],
+   [
+    0.3,
+    "whoosh",
+    0.4
+   ],
+   [
+    1.6,
+    "pop",
+    0.5
+   ],
+   [
+    2.9,
+    "rewind",
+    0.7,
+    2.1
+   ],
+   [
+    4.9,
+    "impact",
+    0.6
+   ],
+   [
+    5.05,
+    "engine",
+    0.6,
+    3.4
+   ],
+   [
+    5.2,
+    "pop",
+    0.6
+   ],
+   [
+    6.9,
+    "ding",
+    0.6
+   ],
+   [
+    8.6,
+    "whoosh",
+    0.5,
+    0.3
+   ],
+   [
+    8.8,
+    "pop",
+    0.5
+   ],
+   [
+    10.3,
+    "stamp",
+    0.8
+   ],
+   [
+    11.75,
+    "boom",
+    0.6,
+    1.2
+   ],
+   [
+    12.2,
+    "crickets",
+    0.6,
+    2.3
+   ],
+   [
+    13.35,
+    "impact",
+    0.8
+   ],
+   [
+    14.6,
+    "ringback",
+    0.9,
+    1.4
+   ],
+   [
+    16.15,
+    "voicemail",
+    0.8
+   ],
+   [
+    16.2,
+    "stamp",
+    0.6
+   ],
+   [
+    17.3,
+    "whoosh",
+    0.4,
+    0.3
+   ],
+   [
+    18.9,
+    "boom",
+    1.0,
+    0.8
+   ],
+   [
+    19.0,
+    "pop",
+    0.5
+   ],
+   [
+    20.9,
+    "heartbeat",
+    0.9,
+    4.6
+   ],
+   [
+    21.1,
+    "tape",
+    0.6,
+    0.6
+   ],
+   [
+    22.6,
+    "tape",
+    0.5,
+    0.4
+   ],
+   [
+    24.6,
+    "tape",
+    0.9,
+    0.8
+   ],
+   [
+    25.5,
+    "impact",
+    1.0
+   ],
+   [
+    25.52,
+    "boom_deep",
+    1.0
+   ],
+   [
+    25.6,
+    "cash",
+    0.9
+   ],
+   [
+    25.8,
+    "whoosh",
+    0.5,
+    0.6
+   ],
+   [
+    27.6,
+    "cash",
+    0.6
+   ],
+   [
+    28.9,
+    "whoosh",
+    0.4,
+    0.3
+   ],
+   [
+    29.9,
+    "vibrate",
+    0.8,
+    2.3
+   ],
+   [
+    30.0,
+    "ringtone",
+    0.7,
+    2.3
+   ],
+   [
+    31.3,
+    "stamp",
+    1.0
+   ],
+   [
+    32.25,
+    "whoosh",
+    0.5,
+    0.35
+   ],
+   [
+    32.4,
+    "pop",
+    0.6
+   ],
+   [
+    35.8,
+    "whoosh",
+    0.4,
+    0.25
+   ],
+   [
+    35.9,
+    "pop",
+    0.5
+   ],
+   [
+    38.7,
+    "impact",
+    0.8
+   ],
+   [
+    40.95,
+    "whoosh",
+    0.5,
+    0.35
+   ],
+   [
+    41.0,
+    "pop",
+    0.8
+   ],
+   [
+    42.8,
+    "whoosh",
+    0.5,
+    0.3
+   ],
+   [
+    42.9,
+    "pop",
+    0.8
+   ],
+   [
+    43.0,
+    "drumroll",
+    0.5,
+    2.9
+   ],
+   [
+    46.0,
+    "impact",
+    0.9
+   ],
+   [
+    46.05,
+    "ding",
+    0.6
+   ],
+   [
+    47.0,
+    "pop",
+    0.6
+   ],
+   [
+    47.5,
+    "pop",
+    0.6
+   ],
+   [
+    48.0,
+    "pop",
+    0.6
+   ],
+   [
+    48.5,
+    "pop",
+    0.6
+   ],
+   [
+    50.6,
+    "whoosh",
+    0.5,
+    0.35
+   ],
+   [
+    50.7,
+    "ding",
+    0.6
+   ],
+   [
+    38.7,
+    "tick",
+    0.7
+   ],
+   [
+    39.45,
+    "tock",
+    0.7
+   ],
+   [
+    40.2,
+    "tick",
+    0.7
+   ],
+   [
+    40.95,
+    "tock",
+    0.7
+   ],
+   [
+    41.7,
+    "tick",
+    0.7
+   ],
+   [
+    42.45,
+    "tock",
+    0.7
+   ],
+   [
+    43.2,
+    "tick",
+    0.7
+   ],
+   [
+    43.95,
+    "tock",
+    0.7
+   ],
+   [
+    44.7,
+    "tick",
+    0.7
+   ],
+   [
+    45.45,
+    "tock",
+    0.7
+   ]
+  ]
+ },
+ "captions": {
+  "tiktok": "50 mil reais num pacote… e um celular tocando 📦📱 O que o Léo faz? A ou B? 👇\n#vocedecide #historia #suspense #serie #zereihoje",
+  "instagram": "Última entrega da noite. Rua sem saída. Ninguém atende.\nDentro do pacote: R$ 50.000… e um celular tocando. 📦📱\n\nO que o Léo deve fazer? VOCÊ DECIDE 👇\n🅰️ Atender o celular\n🅱️ Ir direto pra polícia\n\nO mais votado acontece na PARTE 2!\n\n#vocedecide #historia #suspense #serie #historiasinterativas #zereihoje",
+  "youtube": {
+   "title": "Ele achou R$ 50 MIL numa entrega… e o celular tocou 📱 VOCÊ DECIDE #shorts",
+   "description": "O Léo é entregador e junta dinheiro há 8 meses pra comprar um PS5. Na última entrega da noite, ele encontra R$ 50 mil num pacote... e um celular começa a tocar.\n\nA: atender o celular\nB: ir direto pra polícia\n\nComenta A ou B! O mais votado acontece no próximo episódio.\n#vocedecide #historia #shorts"
+  },
+  "kwai": "Ele achou 50 mil reais numa entrega 😱📦 e o celular tocou! A ou B? Comenta 👇 Parte 2 amanhã!\n#vocedecide #historia #suspense #kwai #zereihoje",
+  "facebook": "O Léo achou R$ 50 mil dentro de um pacote de entrega… e um celular começou a tocar. 📱\nO que ele deve fazer?\nA) Atender o celular\nB) Ir direto pra polícia\nComenta sua escolha que a história continua amanhã!\n#vocedecide #historia #suspense",
+  "pinned_comment": "🗳️ VOTAÇÃO: comenta A ou B 👇 o mais votado acontece na parte 2!",
+  "tips": [
+   "Capa: quadro da explosão de dinheiro (~26s).",
+   "Responda os primeiros comentários na 1ª hora.",
+   "Poste no horário fixo do canal."
+  ]
+ }
+}

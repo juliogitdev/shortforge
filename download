@@ -1,0 +1,7 @@
+node_modules/
+package-lock.json
+scripts/world3d/package.json
+**/build/
+**/out/
+__pycache__/
+*.pyc
